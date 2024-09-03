@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+body {
+    background-color: #0D0D0D;
+    margin: auto;
+    font-family: Cedarville Cursive, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container {
+    height: 1000px;
+    color: #DCDCDC;
+    margin: 50px;
+    font-family: Cedarville Cursive, sans-serif;
+}
+
+#container #inputBar {
+    font-family: Cedarville Cursive, sans-serif;
+    outline: none;
+    border-radius: 60px;
+    border-style: none;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    height: 60px;
+    font-size: large;
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+}
+
+#container button{
+    font-family: Cedarville Cursive, sans-serif;
+    outline: none;
+    border-radius: 60px;
+    border-style: none;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    transition: all 0.5s ease-out;
+}
+
+#container button:hover {
+    width: 120px;
+    background-color: #0D0D0D;
+    color: #DCDCDC;
+    outline-style: solid;
+    outline-color: #DCDCDC;
+}
+
+#container button:active {
+    width: 130px;
+}
+
+#container #inputBar:hover {
+    width: 270px;
+    background-color: #0D0D0D;
+    color: #DCDCDC;
+    outline-style: solid;
+    outline-color: #DCDCDC;
+}
+
+#container #result #resultText {
+    transition: all 0.5s ease-out;
+    background-color: #0D0D0D;
+    border-radius: 25px;
+}
+
+#container #result #resultText:hover {
+    color: #0D0D0D;
+    background-color: #DCDCDC;
+}
