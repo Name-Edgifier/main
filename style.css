@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 body {
-    background-color: #0D0D0D;
+    background-image: url(images/bg.jpg);
     margin: auto;
     font-family: Cedarville Cursive, sans-serif;
     height: 100vh;
@@ -66,11 +66,5 @@ body {
 
 #container #result #resultText {
     transition: all 0.5s ease-out;
-    background-color: #0D0D0D;
     border-radius: 25px;
-}
-
-#container #result #resultText:hover {
-    color: #0D0D0D;
-    background-color: #DCDCDC;
 }
